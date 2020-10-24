@@ -341,43 +341,69 @@ body {
 .add-text {
     min-height: 362px;
 }
-.button-publ{
-    width: 60%;
-    max-width: 370px;
-    height: 20px;
-    margin-right: 2%;
+.fuck {
+    display: flex;
+}
+.add-button {
+    padding-top: 2px;
+    padding-bottom: 2px;
+    padding-left: 10px;
+    padding-right: 10px;
+    width: 230px;
+    max-height: 58px;
+    margin-right: 5px;
+    border: none;
     list-style: none;
     display: flex;
     align-items: center;
-    justify-content: space-between;
-}
-.add-button {
     color: #ffffff;
     text-decoration: none;
-    margin-right: 5%;
-    margin-left: 2%;
     cursor: pointer;
-    background: #faad14;
+    background-color: #faad14;
+    justify-content: space-between;
+    border-radius: 4px;
+}
+.videop {
+    border: none;
+    margin-left: 12px;
+    background-color: #e5e5e5;
+}
+.photop {
+    border: none;
+    margin-right: 12px;
+    background-color: #e5e5e5;
 }
 .video {
-    margin-right: 2%;
     background: #ffffff;
-    padding-left: 5px;
-    padding-right: 5px;
+    border: none;
+    width: 30px;
+    max-height: 58px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 2px;
+    padding-bottom: 2px;
     border-radius: 4px;
     color: #ffc53d;
     cursor: pointer;
     text-decoration: none;
+    background-color: #ffffff;
+    justify-content: space-between;
 }
 .photo {
-    text-decoration: none;
-    margin-right: 2%;
     background: #ffffff;
-    padding-left: 5px;
-    padding-right: 5px;
+    background-color: #ffffff;
+    border: none;
+    width: 30px;
+    max-height: 58px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    padding-left: 10px;
+    padding-right: 10px;
     border-radius: 4px;
     color: #ffc53d;
     cursor: pointer;
+    text-decoration: none;
+    justify-content: space-between;
 }
 @media (max-width: 990px) {
     .menu-toggle {
